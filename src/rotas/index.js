@@ -1,4 +1,4 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from "@react-navigation/native-stack"; // importa Stack.Navigator do Native Stack
 
 import BemVindo from '../pages/bemvindo'  // importa a função BemVindo
 import Autenticar from '../pages/autenticar'  // importa a função Autenticar
@@ -13,13 +13,15 @@ export default function Rotas() {
         <Stack.Navigator>
 
             <Stack.Screen
-                name="BemVindo"
-                component={BemVindo}
+                name="Welcome"  // É o header (Título)
+                component={BemVindo} // Escreve a função BemVindo
+                options={{ headerShown: false }} // desabilita o header
             />
 
             <Stack.Screen
                 name="Autenticar"
                 component={Autenticar}
+                options={{ headerShown: false }} // desabilita o header
             />
 
         </Stack.Navigator>
