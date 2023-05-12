@@ -19,7 +19,7 @@ export default function Rotas() {
             />
 
             <Stack.Screen
-                name="Autenticar"
+                name="Autenticar" // É o nome usado pra chamar a página
                 component={Autenticar}
                 options={{ headerShown: false }} // desabilita o header
             />
