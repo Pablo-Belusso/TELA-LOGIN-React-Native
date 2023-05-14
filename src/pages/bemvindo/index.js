@@ -55,8 +55,8 @@ const estilos = StyleSheet.create({
     containerLogo: {
         flex: 2, // Vou querer o dobro do tamanho do containerForm
         backgroundColor: '#38a69d',
-        justifyContent: 'center', // Centralizar na vertical e horizontal
-        //alignItems: 'center'  // Centralizar na vertical e horizontal
+        justifyContent: 'center', // Centralizar na vertical
+        alignItems: 'center'  // Centralizar na horizontal
 
     },
     containerForm: {
@@ -74,7 +74,10 @@ const estilos = StyleSheet.create({
         marginBottom: 12
     },
     texto: {
-        color: '#a1a1a1'
+        marginTop: 5,
+        color: '#a1a1a1',
+        alignSelf: 'center'
+
     },
     Botao: {  // estilização da estrutura do Botão
 
@@ -84,7 +87,7 @@ const estilos = StyleSheet.create({
         paddingVertical: 20, // espaçamento vertical
         width: '60%',
         alignSelf: 'center', // alinhar ao centro na horizontal
-        bottom: '15%', // alinhar na vertical em baixo
+        bottom: '10%', // alinhar na vertical em baixo
         alignItems: 'center',  // Centralizar os items de dentro do botão
         justifyContent: 'center', // Centralizar na vertical e horizontal
 

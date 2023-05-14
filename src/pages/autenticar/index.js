@@ -13,6 +13,7 @@ export default function Autenticar() {
             </Animatable.View>
 
             <Animatable.View animation="fadeInUp" delay={1000} style={estilos.containerForm}>
+
                 <Text style={estilos.titulo}>Email </Text>
                 <TextInput
                     placeholder="Digite um e-mail:"
@@ -69,6 +70,33 @@ const estilos = StyleSheet.create({
     titulo: {
         fontSize: 20,
         marginTop: 28
+    },
+    input: {
+        borderBottomWidth: 1, // Borda de baixo
+        height: 40,
+        marginBottom: 12,
+        fontSize: 16
+    },
+    botao: {
+        backgroundColor: '#38a69d',
+        width: '100%',
+        borderRadius: 4,
+        paddingVertical: 10,
+        marginTop: 20,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    botaoTexto: {
+        color: 'white',
+        fontSize: 18,
+        fontWeight: 'bold'
+    },
+    botaoRegistro: {
+        marginTop: 13,
+        alignSelf: 'center'
+    },
+    registroTexto: {
+        color: '#a1a1a1'
     }
 
 })
