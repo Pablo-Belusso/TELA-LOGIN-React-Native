@@ -1,13 +1,13 @@
 # Tela Inicial:
 
-![tela01](https://github.com/Pablo-Belusso/TELA-LOGIN-React-Native/assets/121649838/7e18878b-a870-4660-8870-ca4b971ba130)
+![tela01](https://github.com/Pablo-Belusso/TELA-LOGIN-React-Native/assets/121649838/a0146cd2-e3cd-45b3-b9b1-4e1f02c40277)
 
 # Segunda Tela:
 
-![tela02](https://github.com/Pablo-Belusso/TELA-LOGIN-React-Native/assets/121649838/54071750-1a93-415e-87bd-92581c367a77)
+![tela02](https://github.com/Pablo-Belusso/TELA-LOGIN-React-Native/assets/121649838/05c6d3e0-80ba-4038-ab3d-9119b3c5f9ae)
 
 
-# SOBRE:
+## SOBRE:
 
 Esse projeto consiste na criação de um aplicativo mobile que mostra 2 Telas sendo uma de Acesso e outra de Login. 
 Ambas as telas possuem Animações. 
