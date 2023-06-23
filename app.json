@@ -1,0 +1,20 @@
+{
+    "expo": {
+        "nome": "Nome do seu aplicativo",
+        "icon": "./caminho/para/seu/app-icon.png",
+        "versão": "1.0.0",
+        "slug": "slug-seu-aplicativo",
+        "sdkVersion": "XX.0.0",
+        "ios": {
+            "bundleIdentifier": "com.yourcompany.yourappname"
+        },
+        "andróide": {
+            "package": "com.yourcompany.yourappname"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "f2efca30-e4c8-4204-87f2-806b5f6ceff0"
+            }
+        }
+    }
+}
